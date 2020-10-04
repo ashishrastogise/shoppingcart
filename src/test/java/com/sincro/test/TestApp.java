@@ -117,7 +117,7 @@ public class TestApp {
 	    shoppingCartService.addItem(c2, p1, 4);
         shoppingCart = shoppingCartService.cartFor(c2);
         
-        System.out.println("Total Bill for customer 1: "+shoppingCart.total());
+        System.out.println("Total Bill for customer 2: "+shoppingCart.total());
         applicableDiscounts = shoppingCartService.cartDiscount(c2);
         totalDiscount = shoppingCartService.applyDiscount(c2, applicableDiscounts);
         System.out.println("Total Discount : " +totalDiscount.doubleValue());
@@ -129,7 +129,7 @@ public class TestApp {
 	    shoppingCartService.addItem(c2, p1, 8);
         shoppingCart = shoppingCartService.cartFor(c2);
         
-        System.out.println("Total Bill for customer 1: "+shoppingCart.total());
+        System.out.println("Total Bill for customer 2: "+shoppingCart.total());
         applicableDiscounts = shoppingCartService.cartDiscount(c2);
         totalDiscount = shoppingCartService.applyDiscount(c2, applicableDiscounts);
         System.out.println("Total Discount : " +totalDiscount.doubleValue());
@@ -142,7 +142,7 @@ public class TestApp {
 	    shoppingCartService.addItem(c2, p3, 8);
         shoppingCart = shoppingCartService.cartFor(c2);
         
-        System.out.println("Total Bill for customer 1: "+shoppingCart.total());
+        System.out.println("Total Bill for customer 2: "+shoppingCart.total());
         applicableDiscounts = shoppingCartService.cartDiscount(c2);
         totalDiscount = shoppingCartService.applyDiscount(c2, applicableDiscounts);
         System.out.println("Total Discount : " +totalDiscount.doubleValue());
@@ -155,7 +155,7 @@ public class TestApp {
 	    shoppingCartService.addItem(c2, p3, 20);
         shoppingCart = shoppingCartService.cartFor(c2);
         
-        System.out.println("Total Bill for customer 1: "+shoppingCart.total());
+        System.out.println("Total Bill for customer 2: "+shoppingCart.total());
         applicableDiscounts = shoppingCartService.cartDiscount(c2);
         totalDiscount = shoppingCartService.applyDiscount(c2, applicableDiscounts);
         System.out.println("Total Discount : " +totalDiscount.doubleValue());
