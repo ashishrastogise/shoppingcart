@@ -13,7 +13,8 @@ Project Structure:
   1. All main soruce java files: src/main/java/*
   2. All JUnit Test Cases files: src/test/java/*
   3. Sincro Specific story test data and main class: src/test/java/com/sincro/test/TestApp.java
-
+  4. Main class containing logic for discount calculation : src/main/java/com/sincro/shopping/ap/domain/DiscountCalculator.java
+  
 Sample Input:
 
 Regular Type Customer :
